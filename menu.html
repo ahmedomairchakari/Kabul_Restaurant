@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<title>Kabul Restaurant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+<!--font awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+<!--my css-->
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+        <a href="#home" class="w3-bar-item w3-button"> Kabul Restaurant</a>
+        <!-- Right-sided navbar links. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+            <a href="index.html" class="w3-bar-item w3-button">About</a>
+            <a href="menu.html" class="w3-bar-item w3-button">Menu</a>
+            <a href="gallary.html" class="w3-bar-item w3-button">Gallery</a>
+            <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Menu Section -->
+<div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+        <h1 class="w3-center">Our Menu</h1><br>
+        <h4>Bread Basket</h4>
+        <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p>
+        <input class="form-control" type="number" id="one" name="one" placeholder="Enter Quantity" value="0"
+               min="1" max="100">
+        <br>
+
+
+        <h4>Honey Almond Granola with Fruits</h4>
+        <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+        <input class="form-control" type="number" id="two" name="two" placeholder="Enter Quantity" value="0"
+               min="1" max="100"><br>
+
+        <h4>Belgian Waffle</h4>
+        <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><input class="form-control"  type="number" id="three" name="three" placeholder="Enter Quantity" value="0"
+                   min="1" max="100"><br>
+
+        <h4>Scrambled eggs</h4>
+        <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><input class="form-control"  type="number" id="four" name="four" placeholder="Enter Quantity" value="0"
+                   min="1" max="100"><br>
+
+        <h4>Blueberry Pancakes</h4>
+        <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p><input class="form-control"  type="number" id="five" name="five" placeholder="Enter Quantity" value="0"
+                   min="1" max="100">
+
+
+        <!---->
+        <h4>Malai Tikka</h4>
+        <p class="w3-text-grey">Chicken cooked in traditional clay oven, served with spicy mint dip 5.50</p>
+        <input class="form-control" type="number" id="six" name="six" placeholder="Enter Quantity" value="0"
+               min="1" max="100">
+        <br>
+
+
+        <h4>Chicken Pakora</h4>
+        <p class="w3-text-grey">Tender chicken pieces fried in spicy batter. 7.00</p>
+        <input class="form-control" type="number" id="seven" name="seven" placeholder="Enter Quantity" value="0"
+               min="1" max="100"><br>
+
+        <h4>Chicken Tikka Starter</h4>
+        <p class="w3-text-grey">Breast of chicken kebab cooked in traditional clay oven, served with spicy mint dip 7.50</p><input class="form-control"  type="number" id="eigth" name="eigth" placeholder="Enter Quantity" value="0"
+                                                                                         min="1" max="100"><br>
+
+        <h4>Chicken Wings</h4>
+        <p class="w3-text-grey">Cooked on charcoal, chicken wings marinated in traditional herbs and spices 6.00</p><input class="form-control"  type="number" id="nine" name="nine" placeholder="Enter Quantity" value="0"
+                                                                                                                min="1" max="100"><br>
+
+        <h4>Chicken Corn Soup</h4>
+        <p class="w3-text-grey">Fresh corn, chicken seasoned with nutmeg and flecked with egg. 5.0</p><input class="form-control"  type="number" id="ten" name="ten" placeholder="Enter Quantity" value="0"
+                                                                                      min="1" max="100">
+
+
+        <h4>Lamb Leg Roast</h4>
+        <p class="w3-text-grey">Available on order. Preparation time: 3 hours. Price per kilogram. 25.0</p><input class="form-control"  type="number" id="eleven" name="eleven" placeholder="Enter Quantity" value="0"
+                                                                                                                min="1" max="100"><br>
+
+        <h4>Lamb Chop</h4>
+        <p class="w3-text-grey">Marinated lamb chops in light Afghani spices cooked on charcoal. 12.5</p><input class="form-control"  type="number" id="tweleve" name="tweleve" placeholder="Enter Quantity" value="0"
+                                                                                      min="1" max="100">
+
+
+
+
+        <br>
+        <h4>Tip</h4>
+        <select id="select" class="form-control form-control-lg">
+            <option  value="0">0%</option>
+            <option value="5">5%</option>
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+        </select>
+
+        <button onclick="Calc()" class="w3-button w3-light-grey w3-section" style="padding: 3%" type="submit">Calculate Total</button>
+
+        <h4>Total(€) : <span id="result"></span> </h4>
+
+    </div>
+
+    <div class="w3-col l6 w3-padding-large">
+        <img src="image/m1.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+</div>
+
+<hr>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+    <p class="font-weight-bold">Made with love by<a href="" title="W3.CSS" target="_blank" class="w3-hover-text-green"> Ahmed Omair Chakari</a></p>
+</footer>
+
+
+<script src="js/cart.js"></script>
+
+
+</body>
+</html>

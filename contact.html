@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<title>Kabul Restaurant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+<!--font awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+<!--my css-->
+<link rel="stylesheet" href="css/style.css">
+<script src="js/form_validation.js"></script>
+
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+        <a href="#home" class="w3-bar-item w3-button"> Kabul Restaurant</a>
+        <!-- Right-sided navbar links. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+            <a href="index.html" class="w3-bar-item w3-button">About</a>
+            <a href="menu.html" class="w3-bar-item w3-button">Menu</a>
+            <a href="gallary.html" class="w3-bar-item w3-button">Gallery</a>
+            <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+        </div>
+    </div>
+</div>
+
+
+    <hr>
+
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-64" id="contact">
+        <h1>Contact</h1><br>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+        <form name="myForm" onsubmit="return validateForm()" method="post" action="/action_page.php" target="_blank">
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="w3-input w3-padding-16" type="tel" placeholder="Phone number" required name="Pnumber"></p>
+            <p><input class="w3-input w3-padding-16" type="email" placeholder="Email" required name="Email" ></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+            <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+        </form>
+    </div>
+
+    <!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+    <p class="font-weight-bold">Made with love by<a href="" title="W3.CSS" target="_blank" class="w3-hover-text-green"> Ahmed Omair Chakari</a></p>
+</footer>
+
+</body>
+</html>
